@@ -699,26 +699,24 @@
     Plasma: 1000
 
 - type: latheRecipe
-  id: BorgModuleAdvancedArtifact
-  result: BorgModuleAdvancedArtifact
+  id: BorgModuleSpecializedArtifact
+  result: BorgModuleSpecializedArtifact
   category: Robotics
   completetime: 3
   materials:
     Steel: 250
     Glass: 250
     Plastic: 250
-    Gold: 100
 
 - type: latheRecipe
-  id: BorgModuleAdvancedAnomaly
-  result: BorgModuleAdvancedAnomaly
+  id: BorgModuleSpecializedAnomaly
+  result: BorgModuleSpecializedAnomaly
   category: Robotics
   completetime: 3
   materials:
     Steel: 250
     Glass: 250
     Plastic: 250
-    Gold: 100
 
 - type: latheRecipe
   id: BorgModuleRPED

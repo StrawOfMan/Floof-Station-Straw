@@ -81,9 +81,9 @@
         swap: false
 
 - type: entity
-  name: integrated C.H.I.M.P.
+  name: integrated A.P.E.
   parent: WeaponPistolCHIMP
-  description: A heavily modified C.H.I.M.P. that has been integrated within a cyborg. Its output has been reduced as a result.
+  description: A slimmed down and heavily modified A.P.E. Powered by a cyborg's internal battery.
   id: WeaponPistolCHIMPBorg
   categories: [ HideSpawnMenu ]
   components:
@@ -114,7 +114,7 @@
     - type: Item
       sprite: _Floof/Objects/Weapons/Melee/radprobe.rsi
     - type: MeleeWeapon
-      wideAnimationRotation: -45
+      wideAnimationRotation: -90
       attackRate: 1.35
       damage:
         types:
@@ -122,6 +122,6 @@
       heavyRateModifier: 0.75
       heavyDamageBaseModifier: 1.5
       maxTargets: 1
-      angle: 20
+      angle: 15
       soundHit:
         path: /Audio/Effects/sparks1.ogg
