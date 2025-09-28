@@ -501,3 +501,93 @@
     tags:
     - Trash
     - BorgServiceTorso
+
+# research parts
+- type: entity
+  id: LeftArmBorgResearch
+  parent: BaseBorgArmLeft
+  name: research cyborg left arm
+  components:
+  - type: Sprite
+    state: research_l_arm
+  - type: Icon
+    state: research_l_arm
+  - type: Tag
+    tags:
+    - Trash
+    - BorgArm
+    - BorgResearchLArm
+
+- type: entity
+  id: RightArmBorgResearch
+  parent: BaseBorgArmRight
+  name: research cyborg right arm
+  components:
+  - type: Sprite
+    state: research_r_arm
+  - type: Icon
+    state: research_r_arm
+  - type: Tag
+    tags:
+    - Trash
+    - BorgArm
+    - BorgResearchRArm
+
+- type: entity
+  id: LeftLegBorgResearch
+  parent: BaseBorgLegLeft
+  name: research cyborg left leg
+  components:
+  - type: Sprite
+    state: research_l_leg
+  - type: Icon
+    state: research_l_leg
+  - type: Tag
+    tags:
+    - Trash
+    - BorgLeg
+    - BorgResearchLLeg
+
+- type: entity
+  id: RightLegBorgResearch
+  parent: BaseBorgLegRight
+  name: research cyborg right leg
+  components:
+  - type: Sprite
+    state: research_r_leg
+  - type: Icon
+    state: research_r_leg
+  - type: Tag
+    tags:
+    - Trash
+    - BorgLeg
+    - BorgResearchRLeg
+
+- type: entity
+  id: HeadBorgResearch
+  parent: BaseBorgHead
+  name: research cyborg head
+  components:
+  - type: Sprite
+    state: research_head
+  - type: Icon
+    state: research_head
+  - type: Tag
+    tags:
+    - Trash
+    - BorgHead
+    - BorgResearchHead
+
+- type: entity
+  id: TorsoBorgResearch
+  parent: BaseBorgTorso
+  name: research cyborg torso
+  components:
+  - type: Sprite
+    state: research_chest
+  - type: Icon
+    state: research_chest
+  - type: Tag
+    tags:
+    - Trash
+    - BorgResearchTorso

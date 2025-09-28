@@ -1,0 +1,48 @@
+- type: entity
+  id: BorgChassisResearch
+  parent: BaseBorgChassisNT
+  name: research cyborg
+  components:
+  - type: Sprite
+    sprite: _Floof/Mobs/Silicon/epiborg.rsi
+    layers:
+    - state: research
+    - state: research_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: research_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleScience
+    hasMindState: research_e
+    noMindState: research_e_r
+  - type: BorgTransponder
+    sprite:
+      sprite: _Floof/Mobs/Silicon/epiborg.rsi
+      state: research
+    name: research cyborg
+  - type: Construction
+    node: research
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgShort
+  - type: SiliconLawProvider
+    laws: Research # using the unused Delta-V lawset, seems perfectly fine

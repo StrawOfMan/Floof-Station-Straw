@@ -213,6 +213,42 @@
     },
     {
       "name": "service_r_leg+o"
+    },
+    {
+      "name": "research_l_arm"
+    },
+    {
+      "name": "research_r_arm"
+    },
+    {
+      "name": "research_l_leg"
+    },
+    {
+      "name": "research_r_leg"
+    },
+    {
+      "name": "research_chest"
+    },
+    {
+      "name": "research_head"
+    },
+    {
+      "name": "research_head+o"
+    },
+    {
+      "name": "research_chest+o"
+    },
+    {
+      "name": "research_l_arm+o"
+    },
+    {
+      "name": "research_r_arm+o"
+    },
+    {
+      "name": "research_l_leg+o"
+    },
+    {
+      "name": "research_r_leg+o"
     }
   ]
 }

@@ -427,6 +427,8 @@
   - type: ItemBorgModule
     items:
     - NodeScanner
+    - Beaker
+    - Dropper
 
 - type: entity
   id: BorgModuleAnomaly

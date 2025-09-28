@@ -16,6 +16,9 @@
 
 - type: Tag
   id: BorgModuleSecurity
+
+- type: Tag
+  id: BorgModuleScience
 # Start of book tags
 - type: Tag
   id: BookJusticeSop
@@ -43,3 +46,21 @@
 
 - type: Tag
   id: BloodTomato
+
+- type: Tag
+  id: BorgResearchLArm
+
+- type: Tag
+  id: BorgResearchRArm
+
+- type: Tag
+  id: BorgResearchLLeg
+
+- type: Tag
+  id: BorgResearchRLeg
+
+- type: Tag
+  id: BorgResearchHead
+
+- type: Tag
+  id: BorgResearchTorso

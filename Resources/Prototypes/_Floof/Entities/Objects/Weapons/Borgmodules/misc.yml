@@ -38,3 +38,90 @@
     proto: CleanerGrenade
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+
+- type: entity
+  parent: HoloprojectorField
+  id: HoloprojectorFieldBorg
+  suffix: borg
+  components:
+  - type: HolosignProjector
+    chargeUse: 240
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMicroreactor
+        disableEject: true
+        swap: false
+
+- type: entity
+  id: WeaponTetherGunBorg
+  parent: WeaponTetherGun
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMicroreactor
+        disableEject: true
+        swap: false
+
+- type: entity
+  id: WeaponForceGunBorg
+  parent: WeaponForceGun
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMicroreactor
+        disableEject: true
+        swap: false
+
+- type: entity
+  name: integrated C.H.I.M.P.
+  parent: WeaponPistolCHIMP
+  description: A heavily modified C.H.I.M.P. that has been integrated within a cyborg. Its output has been reduced as a result.
+  id: WeaponPistolCHIMPBorg
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: AnomalousParticleDelta
+      fireCost: 100
+    - proto: AnomalousParticleEpsilon
+      fireCost: 100
+    - proto: AnomalousParticleZeta
+      fireCost: 100
+    - proto: AnomalousParticleSigma
+      fireCost: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 50
+
+- type: entity
+  parent: BaseItem
+  id: BorgRadProbe
+  name: Radiation Probe
+  suffix: Borg
+  description: A small device capable of delivering miniscule doses of radiation. Keep away from organics.
+  components:
+    - type: Sprite
+      sprite: _Floof/Objects/Weapons/Melee/radprobe.rsi
+      state: icon
+    - type: Item
+      sprite: _Floof/Objects/Weapons/Melee/radprobe.rsi
+    - type: MeleeWeapon
+      wideAnimationRotation: -45
+      attackRate: 1.35
+      damage:
+        types:
+          Radiation: 2
+      heavyRateModifier: 0.75
+      heavyDamageBaseModifier: 1.5
+      maxTargets: 1
+      angle: 20
+      soundHit:
+        path: /Audio/Effects/sparks1.ogg
