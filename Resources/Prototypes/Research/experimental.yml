@@ -27,10 +27,8 @@
   - AnomalyLocator
   - AnomalyLocatorWide
   - BorgModuleAnomaly
-  - BorgModuleAdvancedAnomaly
   - APECircuitboard
   - AnomalyVesselCircuitboard
-
 
 - type: technology
   id: BasicXenoArcheology
@@ -44,7 +42,6 @@
   recipeUnlocks:
   - NodeScanner
   - BorgModuleArtifact
-  - BorgModuleAdvancedArtifact
   - AnalysisComputerCircuitboard
   - ArtifactAnalyzerMachineCircuitboard
 
@@ -142,7 +139,6 @@
   cost: 7500
   recipeUnlocks:
   - RPED
-  - BorgModuleRPED
 
 - type: technology
   id: DeterrenceTechnologies
@@ -228,7 +224,6 @@
   recipeUnlocks:
     - WeaponForceGun
     - WeaponTetherGun
-    - BorgModuleExperimental
   softCapContribution: 1.5
 
 - type: technology

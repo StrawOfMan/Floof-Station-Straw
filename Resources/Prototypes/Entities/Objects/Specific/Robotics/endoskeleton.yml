@@ -166,30 +166,6 @@
         whitelist:
           tags:
             - BorgJanitorTorso
-      research_l_arm+o:
-        whitelist:
-          tags:
-            - BorgResearchLArm
-      research_r_arm+o:
-        whitelist:
-          tags:
-            - BorgResearchRArm
-      research_l_leg+o:
-        whitelist:
-          tags:
-            - BorgResearchLLeg
-      research_r_leg+o:
-        whitelist:
-          tags:
-            - BorgResearchRLeg
-      research_head+o:
-        whitelist:
-          tags:
-            - BorgResearchHead
-      research_chest+o:
-        whitelist:
-          tags:
-            - BorgResearchTorso
   - type: ContainerContainer
     containers:
       part-container: !type:Container
@@ -236,13 +212,6 @@
       - BorgMiningRLeg
       - BorgMiningHead
       - BorgMiningTorso
-      research:
-      - BorgResearchLArm
-      - BorgResearchRArm
-      - BorgResearchLLeg
-      - BorgResearchRLeg
-      - BorgResearchHead
-      - BorgResearchTorso
   - type: Construction
     graph: Cyborg
     node: start

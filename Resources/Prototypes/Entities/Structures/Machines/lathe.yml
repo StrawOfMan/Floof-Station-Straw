@@ -677,12 +677,6 @@
     - RightLegBorgService
     - HeadBorgService
     - TorsoBorgService
-    - LeftArmBorgResearch
-    - RightArmBorgResearch
-    - LeftLegBorgResearch
-    - RightLegBorgResearch
-    - HeadBorgResearch
-    - TorsoBorgResearch
     - Quadborgendoskeleton
     dynamicRecipes:
     - ProximitySensor
@@ -705,10 +699,6 @@
     - BorgModuleDefibrillator
     - BorgModuleAdvancedTreatment
     - BorgModuleAdvancedSurgery
-    - BorgModuleAdvancedArtifact
-    - BorgModuleAdvancedAnomaly
-    - BorgModuleRPED
-    - BorgModuleExperimental
     - JawsOfLifeLeftArm
     - JawsOfLifeRightArm
     - SpeedLeftLeg
