@@ -27,6 +27,7 @@
   - AnomalyLocator
   - AnomalyLocatorWide
   - BorgModuleAnomaly
+  - BorgModuleAdvancedAnomaly
   - APECircuitboard
   - AnomalyVesselCircuitboard
 
@@ -43,6 +44,7 @@
   recipeUnlocks:
   - NodeScanner
   - BorgModuleArtifact
+  - BorgModuleAdvancedArtifact
   - AnalysisComputerCircuitboard
   - ArtifactAnalyzerMachineCircuitboard
 

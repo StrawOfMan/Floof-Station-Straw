@@ -105,10 +105,9 @@
 
 # Science Modules
 - type: entity
-  id: BorgModuleSpecializedArtifact
+  id: BorgModuleAdvancedArtifact
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
-  name: specialized artifact cyborg module
-  description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
+  name: advanced artifact cyborg module
   components:
   - type: Sprite
     layers:
@@ -124,10 +123,9 @@
     - BorgRadProbe
 
 - type: entity
-  id: BorgModuleSpecializedAnomaly
+  id: BorgModuleAdvancedAnomaly
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
-  name: specialized anomaly cyborg module
-  description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
+  name: advanced anomaly cyborg module
   components:
   - type: Sprite
     layers:
@@ -144,7 +142,6 @@
   id: BorgModuleRPED
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
   name: RPED cyborg module
-  description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
   components:
   - type: Sprite
     layers:
@@ -160,7 +157,6 @@
   id: BorgModuleExperimental
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
   name: experimental cyborg Module
-  description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
   components:
   - type: Sprite
     layers:
