@@ -1,0 +1,24 @@
+- type: entity
+  name: disk rack
+  id: BorgDiskRack
+  parent: BaseStorageItem
+  description: A rack that allows cyborgs to carry disks of all kinds.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Tools/diskrack.rsi
+    state: icon
+  - type: Item
+    size: Ginormous
+    storedRotation: -90
+  - type: Storage
+    grid:
+    - 0,0,7,3
+    maxItemSize: Small
+    quickInsert: true
+    areaInsert: true
+    whitelist:
+      components:
+        - ResearchDisk
+        - TechnologyDisk
+  - type: Dumpable

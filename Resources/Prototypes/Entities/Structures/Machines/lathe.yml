@@ -642,8 +642,7 @@
     - BorgModuleTreatment
     - BorgModuleSurgery
     - BorgModuleCleaning
-    - BorgModuleSpecializedArtifact
-    - BorgModuleSpecializedAnomaly
+    - BorgModuleResearch
     - CyborgEndoskeleton
     - LeftArmBorg
     - RightArmBorg
@@ -707,6 +706,8 @@
     - BorgModuleDefibrillator
     - BorgModuleAdvancedTreatment
     - BorgModuleAdvancedSurgery
+    - BorgModuleSpecializedArtifact
+    - BorgModuleSpecializedAnomaly
     - BorgModuleRPED
     - BorgModuleExperimental
     - JawsOfLifeLeftArm

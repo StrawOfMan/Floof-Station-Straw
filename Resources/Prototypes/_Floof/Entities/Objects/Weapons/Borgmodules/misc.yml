@@ -82,24 +82,50 @@
 
 - type: entity
   name: integrated A.P.E.
-  parent: WeaponPistolCHIMP
+  parent: BaseWeaponBatterySmall
   description: A slimmed down and heavily modified A.P.E. Powered by a cyborg's internal battery.
-  id: WeaponPistolCHIMPBorg
+  id: WeaponAPEBorg
   categories: [ HideSpawnMenu ]
   components:
+  - type: Sprite
+    sprite: _Floof/Objects/Weapons/Guns/borgape.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-1
+      visible: false
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Appearance
+  - type: MagazineVisuals
+    magState: mag
+    steps: 3
+    zeroVisible: false
+  - type: Gun
+    projectileSpeed: 4
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: AnomalousParticleDelta
+    fireCost: 333
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: AnomalousParticleDelta
-      fireCost: 100
+      fireCost: 333
     - proto: AnomalousParticleEpsilon
-      fireCost: 100
+      fireCost: 333
     - proto: AnomalousParticleZeta
-      fireCost: 100
+      fireCost: 333
     - proto: AnomalousParticleSigma
-      fireCost: 100
+      fireCost: 333
+  - type: MeleeWeapon
+    wideAnimationRotation: -90
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 50
+    autoRechargePause: true
+    autoRechargePauseTime: 2
+    autoRechargeRate: 1500
 
 - type: entity
   parent: BaseItem
