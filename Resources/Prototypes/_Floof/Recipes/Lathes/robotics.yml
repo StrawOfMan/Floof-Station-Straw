@@ -1,0 +1,160 @@
+- type: latheRecipe
+  id: LeftArmBorgResearch
+  result: LeftArmBorgResearch
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: RightArmBorgResearch
+  result: RightArmBorgResearch
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: LeftLegBorgResearch
+  result: LeftLegBorgResearch
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: RightLegBorgResearch
+  result: RightLegBorgResearch
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: HeadBorgResearch
+  result: HeadBorgResearch
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: TorsoBorgResearch
+  result: TorsoBorgResearch
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+
+- type: latheRecipe
+  id: LeftArmBorgSecurity
+  result: LeftArmBorgSecurity
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: RightArmBorgSecurity
+  result: RightArmBorgSecurity
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: LeftLegBorgSecurity
+  result: LeftLegBorgSecurity
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: RightLegBorgSecurity
+  result: RightLegBorgSecurity
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: HeadBorgSecurity
+  result: HeadBorgSecurity
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: TorsoBorgSecurity
+  result: TorsoBorgSecurity
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+
+- type: latheRecipe
+  id: BorgModuleResearch
+  result: BorgModuleResearch
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 250
+    Glass: 250
+    Plastic: 250
+
+- type: latheRecipe
+  id: BorgModuleSpecializedArtifact
+  result: BorgModuleSpecializedArtifact
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 250
+    Glass: 250
+    Plastic: 250
+
+- type: latheRecipe
+  id: BorgModuleSpecializedAnomaly
+  result: BorgModuleSpecializedAnomaly
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 250
+    Glass: 250
+    Plastic: 250
+
+- type: latheRecipe
+  id: BorgModuleRPED
+  result: BorgModuleRPED
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 500
+
+- type: latheRecipe
+  id: BorgModuleExperimental
+  result: BorgModuleExperimental
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 500
+    Gold: 100
+    Plasma: 1000

@@ -684,6 +684,12 @@
     - RightLegBorgResearch
     - HeadBorgResearch
     - TorsoBorgResearch
+    - LeftArmBorgSecurity
+    - RightArmBorgSecurity
+    - LeftLegBorgSecurity
+    - RightLegBorgSecurity
+    - HeadBorgSecurity
+    - TorsoBorgSecurity
     - Quadborgendoskeleton
     dynamicRecipes:
     - ProximitySensor

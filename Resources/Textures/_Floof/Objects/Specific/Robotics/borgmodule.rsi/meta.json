@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC0-1.0",
-  "copyright": "base by EmoGarbage404, icons by Fenndragon: 190763499276861440.",
+  "copyright": "base by EmoGarbage404, icons by Fenndragon: 190763499276861440, icon-RPED.png and icon-experimental.png by StrawOfMan.",
   "size": {
     "x": 32,
     "y": 32
@@ -27,6 +27,21 @@
     },
     {
       "name": "icon-explosive"
+    },
+    {
+      "name": "icon-advanomalies"
+    },
+    {
+      "name": "icon-advartifacts"
+    },
+    {
+      "name": "icon-RPED"
+    },
+    {
+      "name": "icon-experimental"
+    },
+    {
+      "name": "science"
     }
   ]
 }

@@ -129,6 +129,7 @@
   description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
   components:
   - type: Sprite
+    sprite: _Floof/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: science
     - state: icon-advartifacts
@@ -137,9 +138,10 @@
     - NodeScanner
     - Beaker
     - Dropper
-    - GeigerCounter
-    - GasAnalyzer
+    - SynthesizerInstrument
     - BorgRadProbe
+    - GasAnalyzer
+    - GeigerCounter
 
 - type: entity
   id: BorgModuleSpecializedAnomaly
@@ -148,6 +150,7 @@
   description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
   components:
   - type: Sprite
+    sprite: _Floof/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: science
     - state: icon-advanomalies
@@ -165,6 +168,7 @@
   description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
   components:
   - type: Sprite
+    sprite: _Floof/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: science
     - state: icon-RPED
@@ -177,15 +181,15 @@
 - type: entity
   id: BorgModuleExperimental
   parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
-  name: experimental cyborg Module
+  name: experimental technology cyborg module
   description: A piece of tech that gives cyborgs new abilities. Made for a specialized chassis.
   components:
   - type: Sprite
+    sprite: _Floof/Objects/Specific/Robotics/borgmodule.rsi
     layers:
     - state: science
     - state: icon-experimental
   - type: ItemBorgModule
     items:
-    - HoloprojectorFieldBorg
     - WeaponTetherGunBorg
     - WeaponForceGunBorg

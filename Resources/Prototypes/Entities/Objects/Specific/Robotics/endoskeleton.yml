@@ -190,6 +190,30 @@
         whitelist:
           tags:
             - BorgResearchTorso
+      security_l_arm+o:
+        whitelist:
+          tags:
+            - BorgSecurityLArm
+      security_r_arm+o:
+        whitelist:
+          tags:
+            - BorgSecurityRArm
+      security_l_leg+o:
+        whitelist:
+          tags:
+            - BorgSecurityLLeg
+      security_r_leg+o:
+        whitelist:
+          tags:
+            - BorgSecurityRLeg
+      security_head+o:
+        whitelist:
+          tags:
+            - BorgSecurityHead
+      security_chest+o:
+        whitelist:
+          tags:
+            - BorgSecurityTorso
   - type: ContainerContainer
     containers:
       part-container: !type:Container
@@ -243,6 +267,13 @@
       - BorgResearchRLeg
       - BorgResearchHead
       - BorgResearchTorso
+      security:
+      - BorgSecurityLArm
+      - BorgSecurityRArm
+      - BorgSecurityLLeg
+      - BorgSecurityRLeg
+      - BorgSecurityHead
+      - BorgSecurityTorso
   - type: Construction
     graph: Cyborg
     node: start

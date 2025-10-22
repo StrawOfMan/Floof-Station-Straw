@@ -64,3 +64,21 @@
 
 - type: Tag
   id: BorgResearchTorso
+
+- type: Tag
+  id: BorgSecurityLArm
+
+- type: Tag
+  id: BorgSecurityRArm
+
+- type: Tag
+  id: BorgSecurityLLeg
+
+- type: Tag
+  id: BorgSecurityRLeg
+
+- type: Tag
+  id: BorgSecurityHead
+
+- type: Tag
+  id: BorgSecurityTorso
